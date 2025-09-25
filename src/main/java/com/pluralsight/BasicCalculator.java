@@ -8,13 +8,15 @@ public class BasicCalculator {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        int firstNum = input.nextInt();
+        double firstNum = input.nextInt();
 
         System.out.print("Enter the second number: ");
-        int secondNum = input.nextInt();
+        double secondNum = input.nextInt();
 
-        int multipliedNum = firstNum * secondNum;
+        double multipliedNum = firstNum * secondNum;
         System.out.println(firstNum + " * " + secondNum + " = " + multipliedNum);
+
+        input.close();
 
     }
 }
